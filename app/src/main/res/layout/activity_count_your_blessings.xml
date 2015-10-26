@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveen.magic.CountYourBlessings"
+    android:padding="16dp"
+    style="@style/StartingLinearLayout"
+    android:background="@color/backgroundColor"
+    >
+    <Button
+        style="@style/CountYourBlessing"
+        android:id="@+id/Count1blessings"
+        android:onClick="CountBlessingActivity"
+        />
+    <!--<Button
+        style="@style/practice_today"
+        android:id="@+id/pratice_today"
+        android:onClick="done_notdone"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:divider="@drawable/divider_vertical"
+        android:showDividers="middle"
+        android:dividerPadding="5dp"
+        android:visibility="visible"
+        android:id="@+id/done_not_buttons">
+        <Button
+            style="@style/Done_Delete_buttons"
+            android:text="Done"
+            />
+        <Button
+            style="@style/Done_Delete_buttons"
+            android:text="Not Done"/>
+    </RadioGroup>
+-->
+    <Switch
+        style="@style/practice_today"
+        android:id="@+id/switch1"
+        android:layout_gravity="center_horizontal"
+        android:onClick="donenotdone"/>
+
+
+</LinearLayout>

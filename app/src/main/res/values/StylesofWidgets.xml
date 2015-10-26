@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Buttonsstyle" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">viewStart</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:divider">?android:dividerHorizontal</item>
+    </style>
+    <style name="CountYourBlessing" parent="Buttonsstyle">
+        <item name="android:text">@string/countyourblessing</item>
+        <item name="android:drawableRight">@drawable/ic_keyboard_arrow_right_black_18dp</item>
+    </style>
+    <style name="practice_today" parent="Buttonsstyle">
+        <item name="android:text">@string/tomorrowsPractice</item>
+    </style>
+    <style name="Done_Delete_buttons" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:background">@color/backgroundColor</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:divider">?android:dividerVertical</item>
+
+    </style>
+    <style name="StartingLinearLayout">
+        <item name="android:divider">@drawable/divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/backgroundColor</item>
+    </style>
+
+</resources>

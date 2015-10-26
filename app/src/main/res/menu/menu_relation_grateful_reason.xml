@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RelationGratefulReason">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="2" app:showAsAction="never"/>
+    <item android:id="@+id/action_edit" android:title="Edit"
+        app:showAsAction="ifRoom" android:icon="@mipmap/ic_edit_white_48dp"
+        android:orderInCategory="1"/>
+</menu>

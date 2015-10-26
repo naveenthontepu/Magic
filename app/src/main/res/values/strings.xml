@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Magic</string>
+    <string name="text_view">This is shit</string>
+    <string name="action_settings">Settings</string>
+    <string name="countyourblessing">Count your Blessings:</string>
+    <string name="blessing1">Add Blessing</string>
+    <string name="onCreateCalled">onCreate called</string>
+    <string name="tomorrowsPractice">Read Tomorrow\'s practice today</string>
+    <string name="FindMagicRock">Find and place a Magic Rock at your bedside</string>
+    <string name="BeforeSleepPractice">Before going to sleep hold your magic rock and think of the best thing happened today and say Thank you</string>
+    <string name="beforesleep">Thank the best thing happened before sleep</string>
+    <string-array name="Day_Names">
+        <item>Count you blessing</item>
+        <item>The Magic Rock</item>
+        <item>Magical Relationships</item>
+        <item>Magical Health</item>
+        <item>Magic Money</item>
+        <item>Works Like Magic</item>
+        <item>Magical Way Out of Negativity</item>
+        <item>Magic Ingredient</item>
+        <item>Money Magnet</item>
+        <item>Magic Dust Everyone</item>
+
+    </string-array>
+    <string name="title_activity_thank_relations">Thank Relations</string>
+    <string name="Dayname3">Magical Relationships</string>
+    <string name="Dayname4">Magical Health</string>
+    <string name="Dayname5">Magic Money</string>
+    <string name="Dayname6">Works Like Magic</string>
+    <string name="Dayname7">Magical Way Out of Negativity</string>
+    <string name="Dayname8">Magic Ingredient</string>
+    <string name="Dayname9">Money Magnet</string>
+    <string name="Dayname10">Magic Dust Everyone</string>
+    <string name="relationSelect">Select the Relation</string>
+
+
+</resources>

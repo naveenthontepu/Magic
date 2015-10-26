@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveen.magic.Count_Blessings"
+    android:windowSoftInputMode="adjustPan"
+    android:background="@color/backgroundColor">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:text="Count Your Blessing"
+        android:id="@+id/blessing_count"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blessing_count"
+        android:id="@+id/listviewblessing"
+        android:descendantFocusability="afterDescendants"
+        android:paddingBottom="16dp"
+        >
+
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveen.magic.RelationGratefulReason"
+    android:background="@color/backgroundColor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gratefulReason"
+        android:id="@+id/scrollView1"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/relationLargeImage"
+                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relationLargeImage"
+                android:id="@+id/gratefulThingsList"
+                android:orientation="vertical"
+                android:divider="@drawable/divider"
+                android:showDividers="middle"
+                android:dividerPadding="@dimen/activity_vertical_margin">
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Why are you grateful reason?"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/gratefulReason"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:imeOptions="actionDone"
+        />
+
+</RelativeLayout>
