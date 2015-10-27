@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     String[] day_names; /*{"Count you blessing", "The Magic Rock", "Magical Relationships",
             "Magical Health", "Magic Money", "Works Like Magic", "The Magical Way Out of Negativity",
             "The Magic Ingredient", "The Money Magnet", "Magic Dust Everyone"}*/;
-    int[] task_numbers={2,3,5,4,5,4,4,3,4,4};
+    int[] task_numbers={2,3,3,4,5,4,4,3,4,4};
     Intent intent;
     SharedPreferences pref;
     SharedPreferences.Editor editor;
@@ -112,12 +112,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void initialize(){
-        for (int i=0;i<task_numbers.length;i++){
+        for (int i=0;i<4;i++){
             int temp=i+1;
             progress[i]=pref.getInt("progress"+String.valueOf(temp),0);
         }
 
-        for(int i=1;i<=task_numbers.length;i++){
+        for(int i=1;i<=4;i++){
             Log.i(TAG, "for loop i = " + String.valueOf(i));
             Day_Tasks day_tasks = new Day_Tasks();
             day_tasks.setDay_number("Day : " + String.valueOf(i));
@@ -186,6 +186,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         Log.i(TAG, "onResume");
         super.onResume();
+        DaysAdapter.notifyDataSetChanged();
+
     }
 
     @Override
